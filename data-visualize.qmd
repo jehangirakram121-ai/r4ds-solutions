@@ -40,7 +40,7 @@ library(palmerpenguins)
     ) + 
       geom_point()
     ```
-
+Use of geom_boxplot() may be more suitable for this scenario.
 5.  No aesthetic mappings for `x` and `y` are provided and these are required aesthetics for the point geom.
 
     ```{r}
